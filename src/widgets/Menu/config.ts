@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.vikingswap.finance",
+        href: "https://exchange.immunityswap.com/",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.vikingswap.finance/#/pool",
+        href: "https://exchange.immunityswap.com/#/pool",
       },
     ],
   },
@@ -51,8 +51,8 @@ export const links = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/VikingDefi/",
-      },
+        href: "https://github.com/ImmunitySwap/",
+      }, /*
       {
         label: "Docs",
         href: "https://vikingswap.gitbook.io/viking-swap/",
@@ -60,7 +60,7 @@ export const links = [
       {
         label: "Blog",
         href: "https://viking-swap.medium.com/",
-      },
+      }, */
     ],
   },
 ];
@@ -72,12 +72,12 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/VikingSwapOfficial",
-      },
+        href: "https://t.me/ImmunityToken",
+      }/* ,
       {
         label: "Announcements",
         href: "https://t.me/vikingswapannouncements",
-      },
+      }, */
     ],
   },
   {

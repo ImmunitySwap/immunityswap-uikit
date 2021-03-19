@@ -2054,18 +2054,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/VikingSwapOfficial",
-            },
+                href: "https://t.me/ImmunityToken",
+            } /*,
             {
                 label: "Announcements",
                 href: "https://t.me/vikingswapannouncements",
-            },
+            }, */
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/vikingswap",
+        href: "https://twitter.com/ImmunityToken",
     },
 ];
 var MENU_HEIGHT = 64;

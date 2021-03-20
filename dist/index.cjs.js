@@ -1539,7 +1539,7 @@ var shadows = {
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-    focus: "0px 0px 0px 1px #8a6a10, 0px 0px 0px 4px #8a6a10",
+    focus: "0px 0px 0px 1px #8A1111, 0px 0px 0px 4px #8A1111",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
@@ -2006,11 +2006,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.vikingswap.finance",
+                href: "https://exchange.immunityswap.com/",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.vikingswap.finance/#/pool",
+                href: "https://exchange.immunityswap.com/#/pool",
             },
         ],
     },
@@ -2047,15 +2047,7 @@ var links = [
         items: [
             {
                 label: "Github",
-                href: "https://github.com/VikingDefi/",
-            },
-            {
-                label: "Docs",
-                href: "https://vikingswap.gitbook.io/viking-swap/",
-            },
-            {
-                label: "Blog",
-                href: "https://viking-swap.medium.com/",
+                href: "https://github.com/ImmunitySwap/",
             },
         ],
     },
@@ -2067,18 +2059,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/VikingSwapOfficial",
-            },
+                href: "https://t.me/ImmunityToken",
+            } /* ,
             {
-                label: "Announcements",
-                href: "https://t.me/vikingswapannouncements",
-            },
+              label: "Announcements",
+              href: "https://t.me/vikingswapannouncements",
+            }, */
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/vikingswap",
+        href: "https://twitter.com/ImmunityToken",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2659,23 +2651,23 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#c1272d",
-    primaryBright: "#D84C53",
-    primaryDark: "#9C1219",
-    secondary: "#364b71",
-    success: "#31D0AA",
-    warning: "#FFB237",
+    primary: "#CE2029",
+    primaryBright: "#9B111E",
+    primaryDark: "#D0253C",
+    secondary: "#8B0000",
+    success: "#009F6B",
+    warning: "#FFAA1D",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#000000', textDisabled: '#999999', textSubtle: '#858585', borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAFAFA", backgroundDisabled: "#EBE8E8", contrast: "#261313", invertedContrast: "#FFFFFF", input: "#F5EBEB", tertiary: "#F5F0F0", text: '#000000', textDisabled: '#999999', textSubtle: '#858585', borderColor: "#EBE8E8", card: "#FFFFFF", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #FFE6E6 0%, #FFF0F0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#be7434", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", 
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#BF3434", background: "#363131", backgroundDisabled: "#423737", contrast: "#FFFFFF", invertedContrast: "#261313", input: "#593E3E", 
     // primaryDark: "#0098A1",
-    tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+    tertiary: "#473636", text: "#FCE3E3", textDisabled: "#706060", textSubtle: "#D4C3C3", borderColor: "#634C4C", card: "#2B2525", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #5C3131 0%, #542A2A 100%)",
     } });
 
 var light = {
